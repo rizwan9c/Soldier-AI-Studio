@@ -211,4 +211,4 @@ with ui.Blocks(title="Soldier AI Studio") as demo:
             refresh_btn.click(fn=get_all_users_table, outputs=users_table)
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(inline=False, share=True)
